@@ -1,0 +1,106 @@
+html, body {
+  background: #19a2ae;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.top-img {
+  position: absolute;
+  top: -80%;
+  left: -20%;
+}
+
+.bottom-img {
+  position: absolute;
+  bottom: -90%;
+  right: -20%;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row .card {
+  min-width: 350px;
+}
+
+.container .row .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.container .row .card .card-body .card-img {
+  position: absolute;
+  border-radius: 150%;
+  border: solid white 7px;
+  height: 100px;
+  width: 100px;
+  top: -60px;
+}
+
+.container .row .card .card-body .card-copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 20px 20px;
+}
+
+.container .row .card .card-body .card-copy .profile-name {
+  margin-right: 8px;
+}
+
+.container .row .card .card-body .card-copy .profile-age {
+  color: #6B7082;
+}
+
+.container .row .card .card-body .card-copy .profile-location {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #6B7082;
+}
+
+.container .row .card .card-body .card-footer {
+  background: none;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  width: 100%;
+}
